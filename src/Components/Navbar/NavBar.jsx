@@ -152,7 +152,7 @@ const NavBar = () => {
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  Market Place
+                  УСЛУГИ
                 </Button>
               </NavLink>
             )}
@@ -163,7 +163,7 @@ const NavBar = () => {
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  Feedback
+                  КОММЕНТАРИИ
                 </Button>
               </NavLink>
             )}
@@ -173,7 +173,7 @@ const NavBar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                Tutorial
+                О НАС
               </Button>
             </NavLink>
             {admin === user.email && (
@@ -183,7 +183,7 @@ const NavBar = () => {
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  Add nft
+                  ЗАПИСЬ
                 </Button>
               </NavLink>
             )}
@@ -240,7 +240,7 @@ const NavBar = () => {
                 <MenuItem onClick={handleLogout}>
                   <Link
                     to="/"
-                    style={{ textDecoration: "none", color: "white" }}
+                    style={{ textDecoration: "none", color: "black" }}
                   >
                     Loge out
                   </Link>
@@ -249,7 +249,7 @@ const NavBar = () => {
                 <MenuItem onClick={handleCloseUserMenu}>
                   <Link
                     to="/auth"
-                    style={{ textDecoration: "none", color: "white" }}
+                    style={{ textDecoration: "none", color: "black" }}
                   >
                     Loge in
                   </Link>

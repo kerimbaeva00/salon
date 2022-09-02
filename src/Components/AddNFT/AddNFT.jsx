@@ -43,7 +43,7 @@ export default function AddNFT() {
 
   return (
     <div className="addProduct">
-      <div className="us-text">Add Nft</div>
+      <div className="us-text">Онлайн запись</div>
       <TextField
         sx={{ width: 300 }}
         id="outlined-basic"
